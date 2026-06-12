@@ -12,6 +12,10 @@ The analysis was carried out in **jamovi (v2.7)**. This repository also provides
 | `cbam_jamovi_input_101rows_with_ebitda_w.xlsx` | Dataset used by the script (101 firm-year obs.; includes original and winsorized EBITDA margin). |
 | `ebitda_regression_cbam v2.omv` | Original jamovi file — main model. |
 | `ebitda_regression_cbam_w v2.omv` | Original jamovi file — robustness model. |
+> Note: The dataset also contains a `revenue_growth` column. It was collected
+> during data preparation but is not used in the regression models reported in
+> the thesis; the script does not reference it.
+
 
 ## Requirements
 
